@@ -298,6 +298,7 @@ export default function ChatPage(props) {
       
 //       const objArray = objKeys.map((keyString) => {
 //         allMessagesObj[keyString].key = keyString;
+//         console.log(keyString)
 //         return allMessagesObj[keyString];
 //       })
       

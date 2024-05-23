@@ -202,13 +202,19 @@ function MessageItem(props) {
 //     const db = getDatabase();
 //     const messageRef = ref(db, "message") //refers to the message key in the database
     
-//     firebaseSet(messageRef, "You clicked me!");
+//     firebaseSet(messageRef, "You clicked me dude");
 
 //     const profFirstNameRef = ref(db, "professor/firstName")
 //     firebaseSet(profFirstNameRef, "Tim");
 
 //     const profCourseRef = ref(db, "professor/courseNumber");
-//     firebaseSet(profCourseRef, "INFO 340");
+//     firebaseSet(profCourseRef, "INFO 340BSpring");
+
+//     const profFirstNameLanguageRef = ref(db, "professor/firstName/language")
+//     firebaseSet(profFirstNameLanguageRef, "English");
+
+//     const atTheRootRef = ref(db,"offtheroot")
+//     firebaseSet(atTheRootRef, "off the root");
 
 //   }
 
@@ -333,7 +339,8 @@ function MessageItem(props) {
 //     const db = getDatabase();
 //     const likeRef = ref(db, "allMessages/"+key+"/liked");
 //     // setIsLiked(!isLiked); //toggle
-//     firebaseSet(likeRef, true)
+//     // firebaseSet(likeRef, true)
+//     firebaseSet(likeRef, !liked)
 //   }
 
 //   //RENDERING
