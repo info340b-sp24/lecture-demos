@@ -18,12 +18,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCUSGwmqCD65UMoKjAW6d6UVRJPw4jez0Y",
-  authDomain: "info340bsp24.firebaseapp.com",
-  projectId: "info340bsp24",
-  storageBucket: "info340bsp24.appspot.com",
-  messagingSenderId: "9504675761",
-  appId: "1:9504675761:web:b98b1b4df824c540918f90"
+  apiKey: "AIzaSyDA9Ym3Ee8DB-lUIDHz-sWWp1zNCIrYXYQ",
+  authDomain: "chatinfo340bsp24.firebaseapp.com",
+  projectId: "chatinfo340bsp24",
+  storageBucket: "chatinfo340bsp24.appspot.com",
+  messagingSenderId: "945906607444",
+  appId: "1:945906607444:web:aa531da74209ca6476d4c1"
 };
 
 // Initialize Firebase
